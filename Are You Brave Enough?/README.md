@@ -40,7 +40,7 @@ has the same effect as `1=1`
 Lastly, we want to ignore `$key` param and end the query after inserting `$id`, hence we append `;%00` at the back.
 
 **Conclusion**
-Submitting `https://brave.dctf-quals-17.def.camp/index.php?id=`id`;%00` will give us the flag
+Submitting ```https://brave.dctf-quals-17.def.camp/index.php?id=`id`;%00``` will give us the flag
 
 Users:
 - Try Harder

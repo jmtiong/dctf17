@@ -27,7 +27,7 @@ if($q->num_rows) {
 }
 ```
 based on the `$id` and `$key`, the possible point of entry will most likely be `$id`, and by studying the conditions in the preg_match
-`%`, `0`, `;` and ``` are not checked.
+`%`, `0`, `;` and `` ` `` are not checked.
 
 **Constructing the query**
 After analyzing the query, we can form a similar construct to the SQL `1=1`,
